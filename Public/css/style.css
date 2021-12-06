@@ -1,0 +1,228 @@
+
+
+/*logo*/
+
+.navbar-brand img{
+    height: 10vh;
+
+}
+
+.nav-link.active{
+    background-color:#4680CF;
+    width: 100%;
+    color: #fff !important;
+    border-radius: 8px;
+    
+}
+
+.navbar-collapse{
+    justify-content: center;
+}
+
+.nav-link:hover {
+color: #000;
+border-radius: 8px;
+}
+/* Hpme*/
+
+.bg-home{
+    background-image: url(../img/bghome.png);
+    background-size: cover;
+    min-height: 90vh;
+    margin-top: 6rem;
+}
+
+.start-now{
+    background-color: white !important;
+    color: #4680CF !important;
+    border: none !important;
+
+}
+
+
+
+.start-now:hover{
+    background-color: #4680CF !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+
+.body-home{
+    position: relative;
+    top: 250px;
+    
+}
+.body-home h3{
+font-size: 24px;
+text-transform: uppercase;
+
+}
+
+.body-home button{
+    font-size: 20px;
+    }
+
+.slogan{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -6px;
+    
+}
+
+/*Sobre*/
+
+.bg-sobre{
+    background-color: #f8f8f8;
+
+}
+
+.content, .row{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content h3{
+    color: #4680CF;
+    font-size: 30px;
+}
+.content p{
+    font-size: 22px;
+}
+
+.content strong{
+    color: #4680CF;
+    
+}
+
+/* Solução*/
+
+
+.bg-solucao{
+    background-image: linear-gradient(to top, #00a3cc , #4680CF);
+  
+}
+
+.bg-solucao h3{
+    color: white;
+    font-weight: 600;
+   
+    font-size: 30px;
+  
+}
+
+.bg-solucao p{
+    color: white;
+    font-size: 22px;
+    
+  
+}
+
+.cartao {
+    position: relative;
+    /* display: flex; */
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff29;
+    background-clip: border-box;
+    margin-bottom: 10px;
+  
+    border-radius: 1.25rem;
+}
+
+.cartao:hover{
+    background-color: white;
+}
+ 
+.card-body p{
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+
+/* Contato*/
+
+.send-msg{
+    background-color: #4680CF !important;
+    color: #ffffff !important;
+    border: none !important;
+
+}
+
+
+
+.send-msg:hover{
+    background-color: #f8f8f8 !important;
+    color: #4680CF !important;
+    border: 1px solid #4680CF!important;
+}
+
+
+
+.bg-contato p{
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 18px;
+    
+}
+.bg-contato strong{
+    font-weight: 500;
+}
+.bg-contato strong, H3{
+    color: #4680CF;
+}
+
+/*footer*/
+
+.bg-footer-super{
+    background-color: #4680CF;
+}
+
+.bg-footer-super .social{
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+div.socialmedias{
+    padding-right: 10px;
+    
+}
+
+div.socialmedias i{
+    padding-right: 10px;
+    color: #fff;
+    
+}
+
+div.socialmedias i:hover{
+    color: rgb(6, 2, 14);
+   
+}
+
+.social h5{
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+.logo-footer{
+  width: max-content;
+}
+
+li {
+    list-style-type: none;
+  }
+
+  a{
+      text-decoration: none !important;
+  }
+
+  .follow-us{
+      font-weight: 400;
+      color: ghostwhite;
+  }
