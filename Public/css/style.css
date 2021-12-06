@@ -234,6 +234,27 @@ li {
     height: 37px;
     max-height: 37px;
 }
+
+button.bg-none {
+    background: none;
+    border: none;
+    color: rgb(34, 197, 34);
+}
+
+.botaofixo{
+    font-size: 35px;
+    color: rgb(34, 197, 34);
+}
+
+.botaofixo:hover{
+    
+    color: rgb(0, 0, 0);
+    cursor:pointer;
+}
+
+
+
+
 /* Responsividade*/
 
 /* Mobile*/
