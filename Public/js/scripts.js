@@ -30,10 +30,10 @@ ScrollReveal({ reset: true });
 
 
 
- //Get the button
+ //pega o botão
  var mybutton = document.getElementById("myBtn");
 
- // When the user scrolls down 20px from the top of the document, show the button
+ // função que monitora a rolagem da tela para que quando ela atinga um valor execute a ação de mostar ou ocultar o botão
  window.onscroll = function() {scrollFunction()};
 
  function scrollFunction() {
@@ -44,7 +44,7 @@ ScrollReveal({ reset: true });
    }
  }
 
- // When the user clicks on the button, scroll to the top of the document
+ //
  function topFunction() {
    document.body.scrollTop = 0;
    document.documentElement.scrollTop = 0;
