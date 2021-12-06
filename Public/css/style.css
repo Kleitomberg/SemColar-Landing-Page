@@ -226,3 +226,53 @@ li {
       font-weight: 400;
       color: ghostwhite;
   }
+
+/* Responsividade*/
+
+/* Mobile*/
+
+@media (min-width: 200px) and (max-width: 425px) {
+
+    div.bg-sobre {
+        padding: 20px;
+    }
+
+    div.bg-solucao{
+        padding: 20px; 
+    }
+
+    div.bg-contato {
+        padding: 15px;
+    }
+    .btn-msg{
+        text-align-last: center;
+    }
+
+    img.art-msg{
+        display: none;
+    }
+
+    .logo-footer{
+        text-align: center;
+    }
+
+    .footer-menu{
+    text-align-last: center;
+    }
+    .assine{
+        text-align: -webkit-center;
+    }
+
+    .footer-form{
+        justify-content: center;
+    }
+
+
+    div.social{
+        display: block !important;
+        text-align-last: center;
+    }
+    span.assinar-text{
+        display: none;
+    }
+ }
