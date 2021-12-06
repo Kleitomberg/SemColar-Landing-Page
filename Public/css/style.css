@@ -212,6 +212,7 @@ div.socialmedias i:hover{
 
 .logo-footer{
   width: max-content;
+  text-align: center;
 }
 
 li {
@@ -282,3 +283,20 @@ li {
         display: none;
     }
  }
+
+ @media (min-width: 426px) and (max-width: 1023px) {
+    
+    .col-md-3.logo-footer {
+        
+    }
+
+    .footer-contato{
+    text-align: -webkit-center;
+    width: 35% !important;
+    margin-top: 30px !important;
+    }
+
+    .contato-ul{
+        min-width: max-content;
+    }
+    }
