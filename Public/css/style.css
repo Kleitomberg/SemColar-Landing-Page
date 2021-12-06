@@ -227,6 +227,12 @@ li {
       color: ghostwhite;
   }
 
+  button.f{
+  min-width: 100%;
+    min-height: 37px;
+    height: 37px;
+    max-height: 37px;
+}
 /* Responsividade*/
 
 /* Mobile*/
